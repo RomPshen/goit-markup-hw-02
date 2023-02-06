@@ -2,42 +2,76 @@
     --primary-text-color: #212121;
     --secondary-text-color: #757575;
     --accent-color: #2196F3;
-
+    --background-color: #F5F5F5;
+    --primary-text-family: Roboto, sans-serif;
+    --secondary-text-family: Raleway;
 }
 
 body {
-background-color: #F5F5F5;
-color: #212121;
-font-family: Roboto;
-}
-
-.site-nav {
-    font-size: 20px;
-    font-weight: 500;
+background-color: var(--background-color);
+color: var(--primary-text-color);
+font-family: var(--primary-text-family);
 }
 
 ul {
     list-style: none;
+} 
+
+a {
+    text-decoration: none;
+}
+
+.secondary-color {
+    color: var(--secondary-text-color);
+}
+
+.accent-color {
+    color: var(--accent-color);
+}
+
+.logo {
+    color: #000000;
+    font-family: var(--secondary-text-family);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+.site-nav {
+    color: var(--primary-text-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    text-decoration: none;
 }
 
 .button {
     cursor: pointer; 
+    color: var(--primary-text-color);
+    background-color: var(--background-color);
 }
 
 .button:hover,
 .button:focus {
-        border-color: #2196F3;
+    border-color: #2196F3;
 }
 
 .button.primary {
-color: #FFFFFF;
-background-color: #2196F3;
-
+    color: #FFFFFF;
+    background-color: #2196F3;
 }
 
-.button.secondary {
-color: #212121;
-background-color: #F5F4FA;
+h2 {
+    color: var(--primary-text-color);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2; 
+}
 
-
+p {
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.88; 
 }
