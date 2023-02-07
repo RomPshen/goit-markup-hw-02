@@ -75,3 +75,14 @@ p {
     font-weight: 400;
     line-height: 1.88; 
 }
+
+.home {
+    color: var(--primary-text-color); /* змінити колір на  #FFFFFF*/
+    font-style: normal; 
+    font-size: 14px;
+    line-height: 1.71; 
+}
+
+.cont-footer {
+    color: rgba(0, 0, 0, 0.6); /* змінити колір на (255, 255, 255,)*/
+}
