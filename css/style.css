@@ -68,11 +68,15 @@ a {
 }
 
 /* головна сторінка*/
+.hero {
+  background-color: var(--background-hero-footer-color);
+}
+
 .title-hero {
   color: var(--hero-text-color);
-  background-color: var(--background-hero-footer-color);
   font-weight: 900;
   font-size: 44px;
+  text-transform: uppercase;
   line-height: 1.36;
 }
 
